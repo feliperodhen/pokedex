@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" width="30" height="30" class="d-inline-block align-top animate__animated animate__shakeY animate__repeat-1 	animate__slow animate__delay-1s" alt="" loading="lazy">
+            Pokedex
+          </a>
+      </nav>
+      
+      <div class="container">
+          <div class="row mt-5">
+              <div class="col-md-9">
+                    <input id="buscar" class="form-control mr-sm-2" type="search" placeholder="escribe numero o nombre de pokemon" aria-label="Search">
+              </div>
+              <div class="col-md-3 text-center">
+                 <button id="pokemon" class="btn btn-outline-danger my-2 my-sm-0 w-75" type="submit">Buscar</button>
+              </div>
+              <div class="col-md-4">
+                <div id="mostrar__pokemon"></div> 
+              </div>
+              <div class="col-md-8 mt-5">
+                <div id="chartContainer" style="margin-bottom: 11%"></div> 
+              </div>
+          </div>
+      </div>
+
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
